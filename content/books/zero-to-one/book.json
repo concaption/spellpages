@@ -1,0 +1,18 @@
+{
+  "title": "Zero to One",
+  "author": "Peter Thiel",
+  "description": "Think like a contrarian founder and build something truly new. 4 Claude Code skills from startup philosophy and innovation theory.",
+  "longDescription": "Peter Thiel's Zero to One captures the essence of radical innovation: going from nothing to something entirely new, rather than copying what already works. Based on his Stanford lectures, Thiel argues that the most valuable companies create new categories rather than compete in existing ones, that contrarian thinking is the foundation of all progress, and that the future belongs to definite optimists who plan and build rather than hedge and diversify. These skills translate Thiel's iconoclastic startup philosophy into frameworks for contrarian thinking, monopoly building, definite planning, and discovering hidden secrets about the world.",
+  "coverImage": "/covers/zero-to-one.svg",
+  "repoUrl": "https://github.com/spellpages/zero-to-one",
+  "installCommand": "git clone https://github.com/spellpages/zero-to-one.git ~/.claude/plugins/zero-to-one && claude plugin install ~/.claude/plugins/zero-to-one",
+  "tags": ["self-help", "startup", "innovation", "contrarian-thinking"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "contrarian-question", "category": "Chapter 2: Contrarian Thinking" },
+    { "slug": "monopoly-strategy", "category": "Chapter 3-5: Competition" },
+    { "slug": "definite-optimism", "category": "Chapter 6: Planning" },
+    { "slug": "secret-finding", "category": "Chapter 8: Secrets" }
+  ]
+}

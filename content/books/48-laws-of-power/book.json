@@ -1,0 +1,18 @@
+{
+  "title": "The 48 Laws of Power",
+  "author": "Robert Greene",
+  "description": "Master strategy, influence, and self-defense in power dynamics. 4 Claude Code skills drawn from historical power analysis.",
+  "longDescription": "Robert Greene's controversial masterpiece distills 3,000 years of history into 48 laws governing the dynamics of power. Drawing on the philosophies of Machiavelli, Sun Tzu, and Carl von Clausewitz alongside the lives of figures like Louis XIV, Bismarck, and Con artists, the book reveals the patterns behind how power is won, maintained, and lost. These skills translate Greene's historical analysis into practical tools for auditing your power position, developing strategic patience, maintaining discretion, and defending against manipulation — all with an ethical grounding that Greene himself emphasizes in defensive application.",
+  "coverImage": "/covers/48-laws-of-power.svg",
+  "repoUrl": "https://github.com/spellpages/48-laws-of-power",
+  "installCommand": "git clone https://github.com/spellpages/48-laws-of-power.git ~/.claude/plugins/48-laws-of-power && claude plugin install ~/.claude/plugins/48-laws-of-power",
+  "tags": ["self-help", "strategy", "power", "influence"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "power-audit", "category": "Laws 1-6: Reputation" },
+    { "slug": "strategic-patience", "category": "Laws 29-35: Timing" },
+    { "slug": "conceal-intentions", "category": "Laws 3-4: Concealment" },
+    { "slug": "power-defense", "category": "Laws 15-20: Defense" }
+  ]
+}

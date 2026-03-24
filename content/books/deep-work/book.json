@@ -1,0 +1,18 @@
+{
+  "title": "Deep Work",
+  "author": "Cal Newport",
+  "description": "Reclaim your focus and produce elite-level work in a distracted world. 4 actionable Claude Code skills.",
+  "longDescription": "Cal Newport's Deep Work argues that the ability to perform focused, cognitively demanding work is both increasingly rare and increasingly valuable. In a world of constant notifications, open-plan offices, and social media, those who can go deep will thrive. Newport provides four rules: work deeply by designing rituals and routines, embrace boredom to train your concentration muscle, quit social media by applying a craftsman's approach to tool selection, and drain the shallows by ruthlessly minimizing low-value tasks. These four skills turn those rules into actionable coaching sessions.",
+  "coverImage": "/covers/deep-work.svg",
+  "repoUrl": "https://github.com/spellpages/deep-work",
+  "installCommand": "git clone https://github.com/spellpages/deep-work.git ~/.claude/plugins/deep-work && claude plugin install ~/.claude/plugins/deep-work",
+  "tags": ["self-help", "productivity", "focus", "work"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "deep-work-schedule", "category": "Rule 1: Work Deeply" },
+    { "slug": "embrace-boredom", "category": "Rule 2: Embrace Boredom" },
+    { "slug": "quit-social-media", "category": "Rule 3: Quit Social Media" },
+    { "slug": "drain-the-shallows", "category": "Rule 4: Drain the Shallows" }
+  ]
+}

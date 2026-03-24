@@ -1,0 +1,19 @@
+{
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "description": "Master the science of tiny habits that compound into remarkable results. 5 actionable Claude Code skills.",
+  "longDescription": "Atomic Habits by James Clear reveals how small, incremental changes in your daily routines can lead to extraordinary outcomes over time. Rather than focusing on goals, Clear argues that systems and identity-based habits are the real drivers of lasting change. These five skills translate the book's core frameworks into interactive coaching sessions that help you design habit stacks, reshape your environment, start small with the two-minute rule, and track your progress systematically.",
+  "coverImage": "/covers/atomic-habits.svg",
+  "repoUrl": "https://github.com/spellpages/atomic-habits",
+  "installCommand": "git clone https://github.com/spellpages/atomic-habits.git ~/.claude/plugins/atomic-habits && claude plugin install ~/.claude/plugins/atomic-habits",
+  "tags": ["self-help", "habits", "productivity", "behavior-change"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "identity-habits", "category": "Chapter 1: Identity" },
+    { "slug": "habit-stacking", "category": "Chapter 2: Cue" },
+    { "slug": "environment-design", "category": "Chapter 3: Environment" },
+    { "slug": "two-minute-rule", "category": "Chapter 4: Getting Started" },
+    { "slug": "habit-scorecard", "category": "Chapter 5: Tracking" }
+  ]
+}

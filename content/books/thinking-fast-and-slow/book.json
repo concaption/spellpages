@@ -1,0 +1,19 @@
+{
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "description": "A groundbreaking tour of the mind revealing the two systems that drive how we think and decide. 5 cognitive skills.",
+  "longDescription": "Nobel laureate Daniel Kahneman's masterwork reveals the two systems that shape our judgments and decisions: System 1 (fast, intuitive, emotional) and System 2 (slow, deliberate, logical). Through decades of research, Kahneman exposes the systematic errors in human thinking, from anchoring bias to loss aversion. These skills help you recognize cognitive biases in real-time, make better decisions under uncertainty, and avoid the traps that lead to poor judgment.",
+  "coverImage": "/covers/thinking-fast-and-slow.svg",
+  "repoUrl": "https://github.com/spellpages/thinking-fast-and-slow",
+  "installCommand": "git clone https://github.com/spellpages/thinking-fast-and-slow.git ~/.claude/plugins/thinking-fast-and-slow && claude plugin install ~/.claude/plugins/thinking-fast-and-slow",
+  "tags": ["self-help", "psychology", "decision-making", "cognitive-bias"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "system-one-two", "category": "Part 1: Two Systems" },
+    { "slug": "anchoring-bias", "category": "Part 2: Heuristics" },
+    { "slug": "loss-aversion", "category": "Part 4: Prospect Theory" },
+    { "slug": "planning-fallacy", "category": "Part 3: Overconfidence" },
+    { "slug": "framing-effects", "category": "Part 4: Frames" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "The 4-Hour Workweek",
+  "author": "Tim Ferriss",
+  "description": "Escape the 9-5, live anywhere, and join the new rich. 4 actionable Claude Code skills for lifestyle design.",
+  "longDescription": "Tim Ferriss's revolutionary guide to lifestyle design challenges conventional work assumptions. Through the DEAL framework (Definition, Elimination, Automation, Liberation), learn to create automated income streams, eliminate time-wasting activities, and design a life of freedom and adventure. These skills help you apply Ferriss's practical methodology to your own career and business.",
+  "coverImage": "/covers/four-hour-workweek.svg",
+  "repoUrl": "https://github.com/spellpages/four-hour-workweek",
+  "installCommand": "git clone https://github.com/spellpages/four-hour-workweek.git ~/.claude/plugins/four-hour-workweek && claude plugin install ~/.claude/plugins/four-hour-workweek",
+  "tags": ["self-help", "productivity", "lifestyle-design", "business"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "elimination", "category": "Step 1: Definition" },
+    { "slug": "automation", "category": "Step 2: Automation" },
+    { "slug": "liberation", "category": "Step 3: Liberation" },
+    { "slug": "dreamlining", "category": "Step 4: Dreamlining" }
+  ]
+}

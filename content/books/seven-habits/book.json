@@ -1,0 +1,19 @@
+{
+  "title": "The 7 Habits of Highly Effective People",
+  "author": "Stephen Covey",
+  "description": "Build principle-centered effectiveness from the inside out. 5 actionable Claude Code skills.",
+  "longDescription": "Stephen Covey's The 7 Habits of Highly Effective People is a foundational framework for personal and interpersonal effectiveness. Moving from dependence to independence to interdependence, the habits guide you to take responsibility, lead with vision, manage your time by principles, collaborate for mutual benefit, listen deeply, and continuously renew yourself. These five skills distill the most actionable habits into guided coaching sessions that produce real plans and commitments.",
+  "coverImage": "/covers/seven-habits.svg",
+  "repoUrl": "https://github.com/spellpages/seven-habits",
+  "installCommand": "git clone https://github.com/spellpages/seven-habits.git ~/.claude/plugins/seven-habits && claude plugin install ~/.claude/plugins/seven-habits",
+  "tags": ["self-help", "leadership", "effectiveness", "principles"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "begin-with-end", "category": "Habit 2: Personal Leadership" },
+    { "slug": "first-things-first", "category": "Habit 3: Time Management" },
+    { "slug": "think-win-win", "category": "Habit 4: Mutual Benefit" },
+    { "slug": "seek-to-understand", "category": "Habit 5: Communication" },
+    { "slug": "sharpen-the-saw", "category": "Habit 7: Renewal" }
+  ]
+}

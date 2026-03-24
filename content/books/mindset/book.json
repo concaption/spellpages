@@ -1,0 +1,18 @@
+{
+  "title": "Mindset",
+  "author": "Carol Dweck",
+  "description": "Transform your relationship with talent, effort, and failure through 4 skills based on decades of research into fixed and growth mindsets.",
+  "longDescription": "Carol Dweck's groundbreaking research reveals that the view you adopt for yourself profoundly affects the way you lead your life. These skills help you recognize fixed mindset thinking, apply growth mindset principles at work, give feedback that fosters development, and create a concrete plan for lasting mindset change.",
+  "coverImage": "/covers/mindset.svg",
+  "repoUrl": "https://github.com/spellpages/mindset",
+  "installCommand": "git clone https://github.com/spellpages/mindset.git ~/.claude/plugins/mindset && claude plugin install ~/.claude/plugins/mindset",
+  "tags": ["self-help", "psychology", "growth", "learning"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "fixed-vs-growth", "category": "Chapter 1: The Mindsets" },
+    { "slug": "growth-mindset-work", "category": "Chapter 5: Business" },
+    { "slug": "praise-process", "category": "Chapter 7: Parents & Teachers" },
+    { "slug": "mindset-change", "category": "Chapter 8: Changing Mindsets" }
+  ]
+}

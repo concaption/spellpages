@@ -1,0 +1,23 @@
+{
+  "title": "The Minimalist Entrepreneur",
+  "author": "Sahil Lavingia",
+  "description": "How great founders do more with less. 9 practical frameworks as Claude Code skills to help you build a profitable, sustainable business starting from community.",
+  "longDescription": "The Minimalist Entrepreneur is the definitive playbook for building a business that isn't about funding rounds, growth hacking, or world domination — it's about profitability, community, and doing more with less. Each chapter has been converted into an interactive Claude Code skill that guides you through the framework with personalized advice.",
+  "coverImage": "/covers/the-minimalist-entrepreneur.svg",
+  "repoUrl": "https://github.com/slavingia/skills",
+  "installCommand": "git clone https://github.com/slavingia/skills.git ~/.claude/plugins/skills && claude plugin install ~/.claude/plugins/skills",
+  "tags": ["entrepreneurship", "business", "startups", "minimalism"],
+  "featured": true,
+  "dateAdded": "2026-03-23",
+  "skills": [
+    { "slug": "find-community", "category": "Chapter 1: Community" },
+    { "slug": "validate-idea", "category": "Chapter 2: Validation" },
+    { "slug": "mvp", "category": "Chapter 3: Build" },
+    { "slug": "first-customers", "category": "Chapter 4: Customers" },
+    { "slug": "pricing", "category": "Chapter 5: Pricing" },
+    { "slug": "marketing-plan", "category": "Chapter 6: Marketing" },
+    { "slug": "grow-sustainably", "category": "Chapter 7: Growth" },
+    { "slug": "company-values", "category": "Chapter 8: Culture" },
+    { "slug": "minimalist-review", "category": "Chapter 9: Review" }
+  ]
+}

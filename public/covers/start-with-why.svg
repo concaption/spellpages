@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <rect width="400" height="600" rx="8" fill="#2d1b2e"/>
+  <rect x="0" y="0" width="400" height="6" fill="#e11d48" rx="8" ry="0"/>
+  <text x="200" y="230" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="30" font-weight="bold"><tspan x="200" dy="0">Start with</tspan><tspan x="200" dy="38">Why</tspan></text>
+  <line x1="140" y1="300" x2="260" y2="300" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <text x="200" y="340" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="18" opacity="0.8">Simon Sinek</text>
+  <text x="200" y="520" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="12" opacity="0.4">4 Claude Code Skills</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "title": "Rich Dad Poor Dad",
+  "author": "Robert Kiyosaki",
+  "description": "What the rich teach their kids about money that the poor and middle class do not. 4 financial intelligence skills.",
+  "longDescription": "Robert Kiyosaki's classic contrasts the financial philosophies of his two fathers: his biological father (Poor Dad) who believed in job security and education, and his best friend's father (Rich Dad) who believed in financial education and building assets. These skills help you adopt the Rich Dad mindset by teaching you to distinguish assets from liabilities, build financial literacy, start a side business, and overcome the psychological obstacles to wealth.",
+  "coverImage": "/covers/rich-dad-poor-dad.svg",
+  "repoUrl": "https://github.com/spellpages/rich-dad-poor-dad",
+  "installCommand": "git clone https://github.com/spellpages/rich-dad-poor-dad.git ~/.claude/plugins/rich-dad-poor-dad && claude plugin install ~/.claude/plugins/rich-dad-poor-dad",
+  "tags": ["self-help", "finance", "investing", "money-mindset"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "asset-vs-liability", "category": "Lesson 1: Assets" },
+    { "slug": "financial-literacy", "category": "Lesson 2: Financial IQ" },
+    { "slug": "mind-your-business", "category": "Lesson 3: Your Business" },
+    { "slug": "overcome-fear", "category": "Lesson 5: Overcoming Obstacles" }
+  ]
+}

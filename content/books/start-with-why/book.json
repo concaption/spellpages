@@ -1,0 +1,18 @@
+{
+  "title": "Start with Why",
+  "author": "Simon Sinek",
+  "description": "How great leaders inspire everyone to take action by starting with purpose. 4 leadership and communication skills.",
+  "longDescription": "Simon Sinek's influential book reveals that the most inspiring leaders and organizations all think, act, and communicate from the inside out, starting with Why. Using the Golden Circle framework, Sinek shows why Apple, Martin Luther King Jr., and the Wright Brothers succeeded where others with more resources failed. These skills help you discover your own Why, communicate with authenticity, inspire action without manipulation, and build movements.",
+  "coverImage": "/covers/start-with-why.svg",
+  "repoUrl": "https://github.com/spellpages/start-with-why",
+  "installCommand": "git clone https://github.com/spellpages/start-with-why.git ~/.claude/plugins/start-with-why && claude plugin install ~/.claude/plugins/start-with-why",
+  "tags": ["self-help", "leadership", "purpose", "communication"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "find-your-why", "category": "Part 2: The Golden Circle" },
+    { "slug": "golden-circle", "category": "Part 1: A World That Doesn't Start with Why" },
+    { "slug": "inspire-action", "category": "Part 3: Leaders Need a Following" },
+    { "slug": "tipping-point", "category": "Part 4: How to Rally" }
+  ]
+}

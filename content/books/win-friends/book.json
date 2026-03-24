@@ -1,0 +1,18 @@
+{
+  "title": "How to Win Friends and Influence People",
+  "author": "Dale Carnegie",
+  "description": "Master the timeless art of human connection, persuasion, and leadership. 4 actionable Claude Code skills.",
+  "longDescription": "Dale Carnegie's How to Win Friends and Influence People has been the definitive guide to interpersonal skills since 1936. The book's principles — show genuine interest, remember names, listen earnestly, avoid criticism, and inspire voluntary change — are as relevant today as ever. These four skills translate Carnegie's core teachings into interactive coaching sessions that help you build authentic rapport, navigate disagreements gracefully, lead others toward change, and deepen every relationship you have.",
+  "coverImage": "/covers/win-friends.svg",
+  "repoUrl": "https://github.com/spellpages/win-friends",
+  "installCommand": "git clone https://github.com/spellpages/win-friends.git ~/.claude/plugins/win-friends && claude plugin install ~/.claude/plugins/win-friends",
+  "tags": ["self-help", "communication", "relationships", "influence"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "genuine-interest", "category": "Part 2: Make People Like You" },
+    { "slug": "handle-criticism", "category": "Part 3: Win People to Your Thinking" },
+    { "slug": "inspire-change", "category": "Part 4: Be a Leader" },
+    { "slug": "remember-names", "category": "Part 1: Fundamental Techniques" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Grit",
+  "author": "Angela Duckworth",
+  "description": "Build passion and perseverance for long-term goals with 4 skills drawn from the science of achievement and sustained effort.",
+  "longDescription": "Angela Duckworth's research reveals that the secret to outstanding achievement is not talent but a special blend of passion and persistence she calls grit. These skills help you assess your own grit, design deliberate practice routines, discover a purpose that sustains motivation, and build a culture of grit in the groups you lead.",
+  "coverImage": "/covers/grit.svg",
+  "repoUrl": "https://github.com/spellpages/grit",
+  "installCommand": "git clone https://github.com/spellpages/grit.git ~/.claude/plugins/grit && claude plugin install ~/.claude/plugins/grit",
+  "tags": ["self-help", "perseverance", "passion", "achievement"],
+  "featured": false,
+  "dateAdded": "2026-03-24",
+  "skills": [
+    { "slug": "grit-assessment", "category": "Part 1: What Grit Is" },
+    { "slug": "deliberate-practice", "category": "Part 2: Growing Grit" },
+    { "slug": "purpose-discovery", "category": "Part 2: Purpose" },
+    { "slug": "grit-culture", "category": "Part 3: Grit from Outside In" }
+  ]
+}
