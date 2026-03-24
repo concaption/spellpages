@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || "https://spellpages.vercel.app"),
   title: {
     default: "SpellPages — Books as Claude Code Skills",
     template: "%s | SpellPages",
@@ -30,6 +31,13 @@ export const metadata: Metadata = {
     description:
       "Browse books converted into Claude Code slash commands. Install a book and get expert guidance directly in your terminal.",
     type: "website",
+    siteName: "SpellPages",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SpellPages — Books as Claude Code Skills",
+    description:
+      "Browse books converted into Claude Code slash commands. Install a book and get expert guidance directly in your terminal.",
   },
 };
 
