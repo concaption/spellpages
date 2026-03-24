@@ -56,7 +56,7 @@ export function SearchBar({
         value={query}
         onChange={handleChange}
         placeholder={placeholder}
-        className="w-full rounded-lg border border-border bg-card px-4 py-3 pl-12 text-sm outline-none transition-colors focus:border-foreground/30 focus:ring-2 focus:ring-foreground/5 placeholder:text-muted-foreground"
+        className="w-full sketch-border bg-card px-4 py-3 pl-12 text-sm font-mono outline-none transition-colors focus:border-accent/40 focus:shadow-[0_0_0_2px_rgba(194,61,46,0.08)] placeholder:text-muted-foreground placeholder:font-sans"
       />
     </form>
   );
