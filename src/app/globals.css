@@ -68,18 +68,18 @@ body {
     -0.5px -0.5px 0 var(--border);
 }
 
-/* Hand-drawn underline effect */
+/* Hand-drawn underline effect — single line */
 .sketch-underline {
   text-decoration: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='14' viewBox='0 0 300 14'%3E%3Cpath d='M2 10 Q40 3 80 9 T160 7 T240 10 T298 6' stroke='%23c23d2e' stroke-width='3' fill='none' stroke-linecap='round' opacity='0.7'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: 300px 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='8' viewBox='0 0 400 8'%3E%3Cpath d='M0 5 Q100 2 200 5 Q300 8 400 4' stroke='%23c23d2e' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 8px;
   padding-bottom: 6px;
 }
 
 .dark .sketch-underline {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='14' viewBox='0 0 300 14'%3E%3Cpath d='M2 10 Q40 3 80 9 T160 7 T240 10 T298 6' stroke='%23e25444' stroke-width='3' fill='none' stroke-linecap='round' opacity='0.7'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='8' viewBox='0 0 400 8'%3E%3Cpath d='M0 5 Q100 2 200 5 Q300 8 400 4' stroke='%23e25444' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
 /* Rough hand-drawn box */
