@@ -3,6 +3,7 @@ import { BookGrid } from "@/components/book-grid";
 import { getAllBooks } from "@/lib/content";
 import Link from "next/link";
 import { HomePageClient } from "@/components/homepage-client";
+import { HomePageSections } from "@/components/homepage-sections";
 
 export default async function HomePage() {
   const allBooks = await getAllBooks();
@@ -63,6 +64,3 @@ export default async function HomePage() {
     </>
   );
 }
-
-// Separate client import to keep the page mostly server-rendered
-import { HomePageSections } from "@/components/homepage-sections";
