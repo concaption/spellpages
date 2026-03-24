@@ -5,15 +5,21 @@ import { CopyButton } from "./ui/copy-button";
 interface SkillActionsProps {
   skillContent: string;
   repoUrl: string;
+  bookSlug: string;
   skillSlug: string;
 }
 
-export function SkillActions({ skillContent, repoUrl, skillSlug }: SkillActionsProps) {
+export function SkillActions({ skillContent, repoUrl, bookSlug, skillSlug }: SkillActionsProps) {
+  const isMainRepo = repoUrl.includes("concaption/spellpages");
+  const githubUrl = isMainRepo
+    ? `${repoUrl}/blob/main/content/books/${bookSlug}/skills/${skillSlug}.md`
+    : `${repoUrl}/blob/main/skills/${skillSlug}/SKILL.md`;
+
   return (
     <div className="mt-4 flex items-center gap-3 flex-wrap">
       <CopyButton text={skillContent} label="Copy SKILL.md" />
       <a
-        href={`${repoUrl}/blob/main/skills/${skillSlug}/SKILL.md`}
+        href={githubUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium bg-muted hover:bg-border text-foreground transition-colors"

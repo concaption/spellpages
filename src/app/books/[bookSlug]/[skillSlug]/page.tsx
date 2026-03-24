@@ -66,6 +66,7 @@ export default async function SkillPage({ params }: Props) {
         <SkillActions
           skillContent={skill.content}
           repoUrl={book.repoUrl}
+          bookSlug={book.slug}
           skillSlug={skill.slug}
         />
       </div>

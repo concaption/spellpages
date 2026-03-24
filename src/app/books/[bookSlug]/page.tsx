@@ -134,6 +134,8 @@ export default async function BookPage({ params }: Props) {
       <InstallInstructions
         repoUrl={book.repoUrl}
         installCommand={book.installCommand}
+        bookSlug={book.slug}
+        firstSkillName={book.skills[0]?.name}
       />
     </div>
   );

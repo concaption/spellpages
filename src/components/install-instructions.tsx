@@ -5,11 +5,20 @@ import { CodeBlock } from "./ui/code-block";
 interface InstallInstructionsProps {
   repoUrl: string;
   installCommand: string;
+  bookSlug: string;
+  firstSkillName?: string;
 }
 
-export function InstallInstructions({ repoUrl, installCommand }: InstallInstructionsProps) {
-  const cloneCommand = `git clone ${repoUrl}.git ~/.claude/plugins/${repoUrl.split("/").pop()}`;
-  const pluginInstall = `claude plugin install ~/.claude/plugins/${repoUrl.split("/").pop()}`;
+export function InstallInstructions({ repoUrl, installCommand, bookSlug, firstSkillName }: InstallInstructionsProps) {
+  const isMainRepo = repoUrl.includes("concaption/spellpages");
+
+  const cloneCommand = isMainRepo
+    ? `git clone ${repoUrl}.git ~/.claude/spellpages`
+    : `git clone ${repoUrl}.git ~/.claude/plugins/${repoUrl.split("/").pop()}`;
+
+  const pluginInstall = isMainRepo
+    ? `claude plugin install ~/.claude/spellpages/content/books/${bookSlug}`
+    : `claude plugin install ~/.claude/plugins/${repoUrl.split("/").pop()}`;
 
   return (
     <section>
@@ -21,7 +30,7 @@ export function InstallInstructions({ repoUrl, installCommand }: InstallInstruct
               <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-foreground text-xs font-bold text-background">
                 1
               </span>
-              Clone the skills repository
+              Clone the repository
             </h3>
             <CodeBlock code={cloneCommand} language="bash" />
           </div>
@@ -42,7 +51,7 @@ export function InstallInstructions({ repoUrl, installCommand }: InstallInstruct
               Start using skills
             </h3>
             <p className="text-sm text-muted-foreground ml-8">
-              Type any skill command (e.g. <code className="bg-muted px-1.5 py-0.5 rounded text-xs font-mono text-accent">/find-community</code>) in Claude Code to get started.
+              Type a skill command (e.g. <code className="bg-muted px-1.5 py-0.5 rounded text-xs font-mono text-accent">/{firstSkillName || "skill-name"}</code>) in Claude Code to get started.
             </p>
           </div>
         </div>
