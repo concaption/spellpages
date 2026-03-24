@@ -47,7 +47,7 @@ export function BooksPageClient({ books }: { books: Book[] }) {
       <div className="flex gap-2 mb-8 flex-wrap">
         <button
           onClick={() => setActiveTag(null)}
-          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+          className={`sketch-border px-3 py-1 text-[11px] font-mono transition-colors ${
             !activeTag
               ? "bg-foreground text-background"
               : "bg-muted text-muted-foreground hover:bg-border"
@@ -59,7 +59,7 @@ export function BooksPageClient({ books }: { books: Book[] }) {
           <button
             key={tag}
             onClick={() => setActiveTag(activeTag === tag ? null : tag)}
-            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+            className={`sketch-border px-3 py-1 text-[11px] font-mono transition-colors ${
               activeTag === tag
                 ? "bg-primary text-primary-foreground"
                 : "bg-muted text-muted-foreground hover:bg-border"

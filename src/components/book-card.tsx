@@ -4,29 +4,14 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Book } from "@/lib/types";
 import { TiltCard } from "./tilt-card";
-import { CornerBracket } from "./sketch-elements";
 
 export function BookCard({ book }: { book: Book }) {
   return (
     <TiltCard>
       <Link
         href={`/books/${book.slug}`}
-        className="group block relative bg-card overflow-hidden transition-all hover:shadow-md rounded-sm"
+        className="group block relative sketch-border bg-card overflow-hidden transition-all hover:shadow-md"
       >
-        {/* Corner brackets */}
-        <div className="absolute top-1 left-1 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
-          <CornerBracket position="top-left" />
-        </div>
-        <div className="absolute top-1 right-1 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
-          <CornerBracket position="top-right" />
-        </div>
-        <div className="absolute bottom-1 left-1 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
-          <CornerBracket position="bottom-left" />
-        </div>
-        <div className="absolute bottom-1 right-1 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
-          <CornerBracket position="bottom-right" />
-        </div>
-
         <div className="relative aspect-[2/3] w-full bg-muted overflow-hidden">
           <Image
             src={book.coverImage}
@@ -45,13 +30,13 @@ export function BookCard({ book }: { book: Book }) {
             {book.description}
           </p>
           <div className="flex items-center gap-2 mt-3 flex-wrap">
-            <span className="inline-flex items-center gap-1 rounded-sm bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent font-mono">
+            <span className="inline-flex items-center gap-1 sketch-border bg-accent/10 px-2 py-0.5 text-[11px] font-mono text-accent">
               {book.skillCount} skills
             </span>
             {book.tags.slice(0, 2).map((tag) => (
               <span
                 key={tag}
-                className="rounded-sm bg-muted px-2 py-0.5 text-xs text-muted-foreground"
+                className="sketch-border bg-muted px-2 py-0.5 text-[11px] text-muted-foreground"
               >
                 {tag}
               </span>

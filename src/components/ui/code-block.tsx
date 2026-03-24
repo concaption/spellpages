@@ -11,10 +11,10 @@ interface CodeBlockProps {
 
 export function CodeBlock({ code, language, className }: CodeBlockProps) {
   return (
-    <div className={cn("relative group rounded-lg bg-muted overflow-hidden", className)}>
+    <div className={cn("relative group sketch-border bg-muted overflow-hidden", className)}>
       <div className="flex items-center justify-between px-4 py-2 border-b border-border">
         {language && (
-          <span className="text-xs text-muted-foreground font-mono">{language}</span>
+          <span className="text-[10px] text-muted-foreground font-mono uppercase tracking-wider">{language}</span>
         )}
         <CopyButton text={code} className="ml-auto" />
       </div>

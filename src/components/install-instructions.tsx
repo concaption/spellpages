@@ -23,12 +23,12 @@ export function InstallInstructions({ repoUrl, installCommand, bookSlug, firstSk
   return (
     <section>
       <h2 className="text-2xl font-bold mb-6">Installation</h2>
-      <div className="rounded-xl border border-border p-6 bg-card">
+      <div className="sketch-border p-6 bg-card">
         <div className="space-y-6">
           <div>
             <h3 className="font-semibold mb-2 flex items-center gap-2">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-foreground text-xs font-bold text-background">
-                1
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center sketch-border text-[10px] font-mono font-bold">
+                01
               </span>
               Clone the repository
             </h3>
@@ -36,29 +36,29 @@ export function InstallInstructions({ repoUrl, installCommand, bookSlug, firstSk
           </div>
           <div>
             <h3 className="font-semibold mb-2 flex items-center gap-2">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-foreground text-xs font-bold text-background">
-                2
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center sketch-border text-[10px] font-mono font-bold">
+                02
               </span>
-              Install the plugin in Claude Code
+              Install the plugin
             </h3>
             <CodeBlock code={pluginInstall} language="bash" />
           </div>
           <div>
             <h3 className="font-semibold mb-2 flex items-center gap-2">
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-foreground text-xs font-bold text-background">
-                3
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center sketch-border text-[10px] font-mono font-bold">
+                03
               </span>
               Start using skills
             </h3>
             <p className="text-sm text-muted-foreground ml-8">
-              Type a skill command (e.g. <code className="bg-muted px-1.5 py-0.5 rounded text-xs font-mono text-accent">/{firstSkillName || "skill-name"}</code>) in Claude Code to get started.
+              Type a skill command (e.g. <code className="sketch-border bg-muted px-1.5 py-0.5 text-[11px] font-mono text-accent">/{firstSkillName || "skill-name"}</code>) in Claude Code.
             </p>
           </div>
         </div>
 
         <div className="mt-6 pt-6 border-t border-border">
-          <p className="text-xs text-muted-foreground">
-            Or install with a single command:
+          <p className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">
+            one-liner
           </p>
           <div className="mt-2">
             <CodeBlock code={installCommand} language="bash" />

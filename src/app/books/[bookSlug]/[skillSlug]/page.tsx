@@ -38,24 +38,24 @@ export default async function SkillPage({ params }: Props) {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       {/* Breadcrumb */}
-      <nav className="mb-8 text-sm text-muted-foreground">
-        <Link href="/" className="hover:text-foreground">Home</Link>
-        <span className="mx-2">/</span>
-        <Link href="/books" className="hover:text-foreground">Books</Link>
-        <span className="mx-2">/</span>
-        <Link href={`/books/${book.slug}`} className="hover:text-foreground">{book.title}</Link>
-        <span className="mx-2">/</span>
-        <span className="text-foreground">/{skill.name}</span>
+      <nav className="mb-8 text-xs font-mono text-muted-foreground">
+        <Link href="/" className="hover:text-foreground transition-colors">home</Link>
+        <span className="mx-1.5 opacity-40">/</span>
+        <Link href="/books" className="hover:text-foreground transition-colors">books</Link>
+        <span className="mx-1.5 opacity-40">/</span>
+        <Link href={`/books/${book.slug}`} className="hover:text-foreground transition-colors">{book.slug}</Link>
+        <span className="mx-1.5 opacity-40">/</span>
+        <span className="text-accent">{skill.slug}</span>
       </nav>
 
       {/* Skill Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="rounded-full bg-muted px-2.5 py-0.5 text-xs text-muted-foreground">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="sketch-border bg-muted px-2 py-0.5 text-[10px] font-mono text-muted-foreground">
             {skill.category}
           </span>
-          <span className="text-muted-foreground text-xs">
-            Skill {skillIndex + 1} of {book.skills.length}
+          <span className="text-muted-foreground text-[10px] font-mono">
+            {String(skillIndex + 1).padStart(2, "0")}/{String(book.skills.length).padStart(2, "0")}
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold font-mono text-accent">
@@ -72,7 +72,7 @@ export default async function SkillPage({ params }: Props) {
       </div>
 
       {/* Skill Content */}
-      <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
+      <div className="sketch-border bg-card p-6 sm:p-8">
         <div
           className="prose max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
@@ -86,11 +86,11 @@ export default async function SkillPage({ params }: Props) {
             href={`/books/${book.slug}/${prevSkill.slug}`}
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="m15 18-6-6 6-6" />
             </svg>
             <span>
-              <span className="block text-xs text-muted-foreground">Previous</span>
+              <span className="block text-[10px] font-mono text-muted-foreground uppercase tracking-wider">prev</span>
               <span className="font-mono text-accent">/{prevSkill.name}</span>
             </span>
           </Link>
@@ -103,10 +103,10 @@ export default async function SkillPage({ params }: Props) {
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors text-right"
           >
             <span>
-              <span className="block text-xs text-muted-foreground">Next</span>
+              <span className="block text-[10px] font-mono text-muted-foreground uppercase tracking-wider">next</span>
               <span className="font-mono text-accent">/{nextSkill.name}</span>
             </span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="m9 18 6-6-6-6" />
             </svg>
           </Link>
@@ -119,9 +119,9 @@ export default async function SkillPage({ params }: Props) {
       <div className="mt-8 text-center">
         <Link
           href={`/books/${book.slug}`}
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          className="text-xs font-mono text-muted-foreground hover:text-foreground transition-colors"
         >
-          &larr; Back to {book.title}
+          &larr; back to {book.slug}
         </Link>
       </div>
     </div>

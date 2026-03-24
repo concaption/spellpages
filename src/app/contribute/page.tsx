@@ -19,7 +19,7 @@ export default function ContributePage() {
         {/* Step 1 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foreground text-sm font-bold text-background">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
               1
             </span>
             Create a Skills Repository
@@ -46,7 +46,7 @@ export default function ContributePage() {
         {/* Step 2 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foreground text-sm font-bold text-background">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
               2
             </span>
             Write the Plugin Manifest
@@ -72,7 +72,7 @@ export default function ContributePage() {
         {/* Step 3 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foreground text-sm font-bold text-background">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
               3
             </span>
             Write Your Skills
@@ -104,7 +104,7 @@ What NOT to do.
 What the skill should produce for the user.`}
             />
           </div>
-          <div className="mt-4 ml-11 rounded-lg border border-border bg-muted/30 p-4">
+          <div className="mt-4 ml-11 sketch-border bg-muted/30 p-4">
             <h4 className="font-semibold text-sm mb-2">Tips for great skills:</h4>
             <ul className="text-sm text-muted-foreground space-y-1.5">
               <li>- Each skill should map to a chapter or core concept</li>
@@ -119,7 +119,7 @@ What the skill should produce for the user.`}
         {/* Step 4 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foreground text-sm font-bold text-background">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
               4
             </span>
             Submit to the Directory
@@ -146,7 +146,7 @@ What the skill should produce for the user.`}
       </div>
 
       {/* CTA */}
-      <div className="mt-16 rounded-xl border border-border bg-muted/30 p-8 text-center">
+      <div className="mt-16 sketch-border bg-muted/30 p-8 text-center">
         <h3 className="text-xl font-bold">Ready to contribute?</h3>
         <p className="mt-2 text-muted-foreground">
           Check out existing books for inspiration, then create your own.
@@ -156,7 +156,7 @@ What the skill should produce for the user.`}
             href="https://github.com/concaption/spellpages"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 transition-opacity"
+            className="sketch-border bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Open a PR
           </a>
@@ -164,7 +164,7 @@ What the skill should produce for the user.`}
             href="https://github.com/slavingia/skills"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg border border-border px-6 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+            className="sketch-border px-6 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
           >
             View Example
           </a>
