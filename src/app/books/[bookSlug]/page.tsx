@@ -66,12 +66,12 @@ export default async function BookPage({ params }: Props) {
             {book.tags.map((tag) => (
               <span
                 key={tag}
-                className="sketch-border bg-muted px-2.5 py-0.5 text-[11px] font-mono text-muted-foreground"
+                className="sketch-border bg-muted px-2.5 py-0.5 text-xs font-mono text-muted-foreground"
               >
                 {tag}
               </span>
             ))}
-            <span className="sketch-border bg-accent/10 px-2.5 py-0.5 text-[11px] font-mono text-accent">
+            <span className="sketch-border bg-accent/10 px-2.5 py-0.5 text-xs font-mono text-accent">
               {book.skillCount} skills
             </span>
           </div>
@@ -114,7 +114,7 @@ export default async function BookPage({ params }: Props) {
                   <code className="text-sm font-mono font-semibold text-accent group-hover:underline">
                     /{skill.name}
                   </code>
-                  <span className="hidden sm:inline sketch-border bg-muted px-2 py-0.5 text-[10px] font-mono text-muted-foreground">
+                  <span className="hidden sm:inline sketch-border bg-muted px-2 py-0.5 text-xs font-mono text-muted-foreground">
                     {skill.category}
                   </span>
                 </div>

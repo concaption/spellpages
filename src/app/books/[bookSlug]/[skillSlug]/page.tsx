@@ -51,10 +51,10 @@ export default async function SkillPage({ params }: Props) {
       {/* Skill Header */}
       <div className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="sketch-border bg-muted px-2 py-0.5 text-[10px] font-mono text-muted-foreground">
+          <span className="sketch-border bg-muted px-2 py-0.5 text-xs font-mono text-muted-foreground">
             {skill.category}
           </span>
-          <span className="text-muted-foreground text-[10px] font-mono">
+          <span className="text-muted-foreground text-xs font-mono">
             {String(skillIndex + 1).padStart(2, "0")}/{String(book.skills.length).padStart(2, "0")}
           </span>
         </div>
@@ -90,7 +90,7 @@ export default async function SkillPage({ params }: Props) {
               <path d="m15 18-6-6 6-6" />
             </svg>
             <span>
-              <span className="block text-[10px] font-mono text-muted-foreground uppercase tracking-wider">prev</span>
+              <span className="block text-xs font-mono text-muted-foreground uppercase tracking-wider">prev</span>
               <span className="font-mono text-accent">/{prevSkill.name}</span>
             </span>
           </Link>
@@ -103,7 +103,7 @@ export default async function SkillPage({ params }: Props) {
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors text-right"
           >
             <span>
-              <span className="block text-[10px] font-mono text-muted-foreground uppercase tracking-wider">next</span>
+              <span className="block text-xs font-mono text-muted-foreground uppercase tracking-wider">next</span>
               <span className="font-mono text-accent">/{nextSkill.name}</span>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">

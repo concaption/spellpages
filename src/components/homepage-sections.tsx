@@ -71,7 +71,7 @@ export function HomePageSections() {
                   <h3 className="font-semibold">Get Expert Guidance</h3>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Type a command like <code className="sketch-border bg-muted px-1.5 py-0.5 text-[11px] font-mono text-accent">/validate-idea</code> and
+                  Type a command like <code className="sketch-border bg-muted px-1.5 py-0.5 text-xs font-mono text-accent">/validate-idea</code> and
                   Claude becomes a coach channeling the book&apos;s methodology.
                 </p>
               </div>

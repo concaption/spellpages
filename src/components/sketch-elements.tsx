@@ -38,7 +38,7 @@ export function DimensionLine({
         <div className="annotation-dot" />
         <div className="w-px h-full bg-border opacity-40" style={{ minHeight: 40 }} />
         {label && (
-          <span className="text-[9px] font-mono text-muted-foreground/50 -rotate-90 whitespace-nowrap">
+          <span className="text-xs font-mono text-muted-foreground/50 -rotate-90 whitespace-nowrap">
             {label}
           </span>
         )}
@@ -53,7 +53,7 @@ export function DimensionLine({
       <div className="annotation-dot" />
       <div className="h-px flex-1 bg-border opacity-40" />
       {label && (
-        <span className="text-[9px] font-mono text-muted-foreground/50 px-1">
+        <span className="text-xs font-mono text-muted-foreground/50 px-1">
           {label}
         </span>
       )}
@@ -126,7 +126,7 @@ export function AnnotationArrow({
         />
         <path d="M34 6 L38 10 L34 14" stroke="currentColor" strokeWidth="1" opacity="0.3" fill="none" strokeLinecap="round" />
       </svg>
-      <span className="text-[10px] font-mono text-muted-foreground/60 italic">{text}</span>
+      <span className="text-xs font-mono text-muted-foreground/60 italic">{text}</span>
     </motion.div>
   );
 }

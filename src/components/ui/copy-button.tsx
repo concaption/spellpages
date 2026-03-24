@@ -16,7 +16,7 @@ export function CopyButton({ text, className, label = "Copy" }: CopyButtonProps)
     <button
       onClick={() => copy(text)}
       className={cn(
-        "inline-flex items-center gap-1.5 sketch-border px-2.5 py-1 text-[11px] font-mono transition-colors",
+        "inline-flex items-center gap-1.5 sketch-border px-2.5 py-1 text-xs font-mono transition-colors",
         "bg-muted hover:bg-border text-foreground",
         className
       )}

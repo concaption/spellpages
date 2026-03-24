@@ -19,7 +19,7 @@ export default function ContributePage() {
         {/* Step 1 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-xs font-mono font-bold">
               1
             </span>
             Create a Skills Repository
@@ -46,7 +46,7 @@ export default function ContributePage() {
         {/* Step 2 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-xs font-mono font-bold">
               2
             </span>
             Write the Plugin Manifest
@@ -72,7 +72,7 @@ export default function ContributePage() {
         {/* Step 3 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-xs font-mono font-bold">
               3
             </span>
             Write Your Skills
@@ -119,7 +119,7 @@ What the skill should produce for the user.`}
         {/* Step 4 */}
         <section>
           <h2 className="text-xl font-bold flex items-center gap-3">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-[11px] font-mono font-bold">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center sketch-border text-xs font-mono font-bold">
               4
             </span>
             Submit to the Directory

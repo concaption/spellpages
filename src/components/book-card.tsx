@@ -30,13 +30,13 @@ export function BookCard({ book }: { book: Book }) {
             {book.description}
           </p>
           <div className="flex items-center gap-2 mt-3 flex-wrap">
-            <span className="inline-flex items-center gap-1 sketch-border bg-accent/10 px-2 py-0.5 text-[11px] font-mono text-accent">
+            <span className="inline-flex items-center gap-1 sketch-border bg-accent/10 px-2 py-0.5 text-xs font-mono text-accent">
               {book.skillCount} skills
             </span>
             {book.tags.slice(0, 2).map((tag) => (
               <span
                 key={tag}
-                className="sketch-border bg-muted px-2 py-0.5 text-[11px] text-muted-foreground"
+                className="sketch-border bg-muted px-2 py-0.5 text-xs text-muted-foreground"
               >
                 {tag}
               </span>

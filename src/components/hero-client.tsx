@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { SearchBar } from "./search-bar";
 import { FadeIn, FloatingBook, motion } from "./motion";
-import { BlueprintGrid, ConstructionMarks, DimensionLine, AnnotationArrow } from "./sketch-elements";
+import { BlueprintGrid, ConstructionMarks, DimensionLine } from "./sketch-elements";
 import { ParallaxLayer } from "./parallax";
 
 const terminalLines = [
@@ -36,12 +36,8 @@ export function HeroClient({ bookCount, skillCount }: { bookCount: number; skill
             </h1>
           </FadeIn>
 
-          <FadeIn delay={0.15}>
-            <AnnotationArrow text="slash commands from real books" className="mt-3" />
-          </FadeIn>
-
           <FadeIn delay={0.2}>
-            <p className="mt-5 text-lg text-muted-foreground leading-relaxed max-w-lg">
+            <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-lg">
               Every great book has frameworks worth reusing. We extract them into
               Claude Code slash commands so you get expert guidance when you need it.
             </p>
@@ -97,7 +93,7 @@ export function HeroClient({ bookCount, skillCount }: { bookCount: number; skill
                   <div className="w-2.5 h-2.5 rounded-full border border-border" />
                   <div className="w-2.5 h-2.5 rounded-full border border-border" />
                 </div>
-                <span className="text-[10px] text-muted-foreground font-mono ml-2">~ claude</span>
+                <span className="text-xs text-muted-foreground font-mono ml-2">~ claude</span>
               </div>
               {/* Terminal content */}
               <div className="p-5 font-mono text-sm space-y-4">
@@ -116,7 +112,7 @@ export function HeroClient({ bookCount, skillCount }: { bookCount: number; skill
                     <div className="text-foreground font-semibold text-xs">
                       <span className="text-accent">&gt;</span> {line.command}
                     </div>
-                    <div className="mt-1.5 text-muted-foreground text-[11px] leading-relaxed pl-3 border-l border-accent/30">
+                    <div className="mt-1.5 text-muted-foreground text-xs leading-relaxed pl-3 border-l border-accent/30">
                       {line.response}
                     </div>
                   </motion.div>
