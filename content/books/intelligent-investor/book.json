@@ -1,0 +1,18 @@
+{
+  "title": "The Intelligent Investor",
+  "author": "Benjamin Graham",
+  "description": "Apply the father of value investing's timeless principles with 4 skills for building lasting wealth through disciplined analysis.",
+  "longDescription": "Benjamin Graham's The Intelligent Investor is the definitive guide to value investing, praised by Warren Buffett as 'by far the best book on investing ever written.' First published in 1949, its principles of margin of safety, intrinsic value, and emotional discipline remain as relevant as ever. These four skills help you calculate margin of safety for any investment, assess true value versus market price, cultivate the right investor temperament, and build a defensive portfolio that protects your wealth.",
+  "coverImage": "/covers/intelligent-investor.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/intelligent-investor",
+  "tags": ["investing", "finance", "value-investing", "money"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "margin-of-safety", "category": "Ch20: Safety" },
+    { "slug": "value-assessment", "category": "Ch8: Valuation" },
+    { "slug": "investor-temperament", "category": "Ch1: Temperament" },
+    { "slug": "portfolio-defense", "category": "Ch4: Defense" }
+  ]
+}

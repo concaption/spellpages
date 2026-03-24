@@ -1,0 +1,18 @@
+{
+  "title": "Why We Sleep",
+  "author": "Matthew Walker",
+  "description": "Optimize your sleep for peak performance with 4 science-backed skills from the world's leading sleep researcher.",
+  "longDescription": "Matthew Walker's Why We Sleep is a groundbreaking exploration of one of the most important yet neglected aspects of human health. Drawing on decades of research, Walker reveals how sleep affects every aspect of our physical and mental well-being — from learning and memory to immunity and longevity. These four skills help you audit your current sleep quality, implement proven sleep hygiene practices, design effective nap protocols, and build a consistent sleep schedule for optimal performance.",
+  "coverImage": "/covers/why-we-sleep.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/why-we-sleep",
+  "tags": ["health", "sleep", "performance", "science"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "sleep-audit", "category": "Part 1: Assessment" },
+    { "slug": "sleep-hygiene", "category": "Part 3: Optimization" },
+    { "slug": "nap-protocol", "category": "Part 2: Naps" },
+    { "slug": "sleep-schedule", "category": "Part 3: Schedule" }
+  ]
+}

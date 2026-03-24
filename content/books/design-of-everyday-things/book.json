@@ -1,0 +1,18 @@
+{
+  "title": "The Design of Everyday Things",
+  "author": "Don Norman",
+  "description": "Apply human-centered design principles to make products intuitive and error-proof. 4 actionable Claude Code skills.",
+  "longDescription": "The Design of Everyday Things by Don Norman is the foundational text of human-centered design. Norman reveals why some products delight us while others leave us feeling stupid — and the answer is never the user's fault. Through concepts like affordances, signifiers, feedback, constraints, and mapping, Norman provides a vocabulary and framework for designing things that work the way people think. These four skills translate Norman's design principles into interactive coaching sessions that help you audit interfaces for affordances, design effective feedback systems, prevent errors through smart constraints, and run a human-centered design process from discovery to delivery.",
+  "coverImage": "/covers/design-of-everyday-things.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/design-of-everyday-things",
+  "tags": ["design", "ux", "usability", "product"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "affordance-check", "category": "Ch1: Affordances" },
+    { "slug": "feedback-visibility", "category": "Ch2: Feedback" },
+    { "slug": "error-prevention", "category": "Ch5: Errors" },
+    { "slug": "user-centered-design", "category": "Ch6: Design Process" }
+  ]
+}

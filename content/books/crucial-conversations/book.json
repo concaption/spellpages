@@ -1,0 +1,18 @@
+{
+  "title": "Crucial Conversations",
+  "author": "Patterson et al.",
+  "description": "Navigate high-stakes dialogue with 4 skills for turning difficult conversations into breakthrough moments.",
+  "longDescription": "Crucial Conversations by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler provides a proven framework for handling life's most difficult and important dialogues. When stakes are high, opinions vary, and emotions run strong, most people either clam up or blow up. These four skills teach you to start with the right motives, create psychological safety so everyone can speak freely, master the stories you tell yourself about others, and move from dialogue to decisive action.",
+  "coverImage": "/covers/crucial-conversations.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/crucial-conversations",
+  "tags": ["communication", "conflict", "leadership", "relationships"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "start-with-heart", "category": "Ch3: Start with Heart" },
+    { "slug": "make-it-safe", "category": "Ch5: Safety" },
+    { "slug": "master-stories", "category": "Ch6: Stories" },
+    { "slug": "move-to-action", "category": "Ch9: Action" }
+  ]
+}

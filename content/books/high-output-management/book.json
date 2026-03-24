@@ -1,0 +1,18 @@
+{
+  "title": "High Output Management",
+  "author": "Andy Grove",
+  "description": "Maximize your managerial leverage through production thinking, meetings, and performance management. 4 actionable Claude Code skills.",
+  "longDescription": "High Output Management by Andy Grove, legendary CEO of Intel, treats management as a discipline with the same rigor as engineering. Grove applies manufacturing principles to knowledge work, arguing that a manager's output equals the output of their organization plus the output of neighboring organizations under their influence. The book covers production fundamentals, managerial leverage, the art of one-on-ones and meetings, and performance reviews as the manager's most important tool. These four skills translate Grove's operational frameworks into coaching sessions that help you think about your work as a production process, maximize your leverage, run meetings that matter, and deliver performance reviews that actually improve performance.",
+  "coverImage": "/covers/high-output-management.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/high-output-management",
+  "tags": ["management", "leadership", "productivity", "operations"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "production-principles", "category": "Part 1: Production" },
+    { "slug": "leverage-activities", "category": "Part 2: Leverage" },
+    { "slug": "one-on-ones", "category": "Part 3: Meetings" },
+    { "slug": "performance-reviews", "category": "Part 4: Reviews" }
+  ]
+}

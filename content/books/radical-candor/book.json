@@ -1,0 +1,18 @@
+{
+  "title": "Radical Candor",
+  "author": "Kim Scott",
+  "description": "Learn to care personally while challenging directly through 4 Claude Code skills on the candor framework, giving feedback, difficult conversations, and building trust.",
+  "longDescription": "Kim Scott's management philosophy sits at the intersection of caring personally and challenging directly. These 4 skills teach you the two-dimensional framework for feedback, how to praise and criticize effectively, techniques for navigating the hardest conversations, and methods for building trust that makes candor possible — transforming you from a ruinously empathetic or obnoxiously aggressive boss into an effective leader.",
+  "coverImage": "/covers/radical-candor.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/radical-candor",
+  "tags": ["leadership", "management", "feedback", "communication"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "candor-framework", "category": "Part 1: The Framework" },
+    { "slug": "giving-feedback", "category": "Part 2: Feedback" },
+    { "slug": "difficult-conversations", "category": "Part 3: Hard Talks" },
+    { "slug": "building-trust", "category": "Part 4: Trust" }
+  ]
+}

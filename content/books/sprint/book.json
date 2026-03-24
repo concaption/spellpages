@@ -1,0 +1,19 @@
+{
+  "title": "Sprint",
+  "author": "Jake Knapp",
+  "description": "Run a Google Ventures design sprint in five days with 5 Claude Code skills covering mapping, sketching, deciding, prototyping, and testing.",
+  "longDescription": "Jake Knapp's battle-tested five-day process from Google Ventures turns big problems into tested solutions in one week. These 5 skills walk you through each day — Monday's problem mapping, Tuesday's solution sketching, Wednesday's decision-making, Thursday's rapid prototyping, and Friday's user testing — giving you a structured framework for tackling any product or business challenge at sprint speed.",
+  "coverImage": "/covers/sprint.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/sprint",
+  "tags": ["design", "product", "innovation", "process"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "map-monday", "category": "Day 1: Map" },
+    { "slug": "sketch-tuesday", "category": "Day 2: Sketch" },
+    { "slug": "decide-wednesday", "category": "Day 3: Decide" },
+    { "slug": "prototype-thursday", "category": "Day 4: Prototype" },
+    { "slug": "test-friday", "category": "Day 5: Test" }
+  ]
+}

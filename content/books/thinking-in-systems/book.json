@@ -1,0 +1,18 @@
+{
+  "title": "Thinking in Systems",
+  "author": "Donella Meadows",
+  "description": "See the hidden structures that drive complex behavior. 4 actionable Claude Code skills.",
+  "longDescription": "Thinking in Systems by Donella Meadows is a foundational primer on systems thinking — the ability to see interconnections, feedback loops, and emergent behavior in the complex world around us. Meadows shows that most persistent problems are not caused by villains or incompetence but by system structures that produce predictable patterns. These four skills translate her frameworks into practical coaching sessions that help you map system boundaries, trace feedback loops, identify high-leverage intervention points, and recognize recurring system archetypes so you can design better solutions instead of fighting symptoms.",
+  "coverImage": "/covers/thinking-in-systems.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/thinking-in-systems",
+  "tags": ["systems-thinking", "complexity", "strategy", "mental-models"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "system-mapping", "category": "Part 1: Structure" },
+    { "slug": "feedback-loops", "category": "Part 1: Feedback" },
+    { "slug": "leverage-points", "category": "Part 3: Leverage" },
+    { "slug": "system-archetypes", "category": "Part 2: Archetypes" }
+  ]
+}

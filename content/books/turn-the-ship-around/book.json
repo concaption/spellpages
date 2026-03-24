@@ -1,0 +1,18 @@
+{
+  "title": "Turn the Ship Around!",
+  "author": "L. David Marquet",
+  "description": "Build empowered, self-leading teams with 4 skills from Marquet's revolutionary leadership model.",
+  "longDescription": "Turn the Ship Around! tells the remarkable story of how Captain David Marquet transformed the USS Santa Fe from the worst-performing submarine in the fleet to the best—by giving up control. Marquet replaced the traditional leader-follower model with a leader-leader approach where every crew member thinks and acts like a leader. These skills teach you to push authority to where the information lives, replace permission-seeking with intent-based leadership, and build the competence and clarity that make empowerment actually work.",
+  "coverImage": "/covers/turn-the-ship-around.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/turn-the-ship-around",
+  "tags": ["leadership", "management", "empowerment", "teams"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "leader-leader-model", "category": "Part 1: Model" },
+    { "slug": "intent-based-leadership", "category": "Part 2: Intent" },
+    { "slug": "push-authority-down", "category": "Part 2: Authority" },
+    { "slug": "build-competence", "category": "Part 3: Competence" }
+  ]
+}

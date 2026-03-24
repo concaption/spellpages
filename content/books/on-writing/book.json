@@ -1,0 +1,18 @@
+{
+  "title": "On Writing",
+  "author": "Stephen King",
+  "description": "Master the craft of writing with 4 skills from Stephen King's memoir and masterclass on storytelling.",
+  "longDescription": "Part memoir, part masterclass, Stephen King's On Writing is one of the most acclaimed books on the craft ever written. King strips away the mystique of writing to reveal the discipline, tools, and habits that produce great work. From building your writer's toolbox to knowing when to kill your darlings, these skills capture King's no-nonsense approach to producing compelling prose. Whether you write fiction, nonfiction, or code documentation, King's principles of clarity, honesty, and daily discipline apply universally.",
+  "coverImage": "/covers/on-writing.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/on-writing",
+  "tags": ["writing", "craft", "creativity", "discipline"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "toolbox", "category": "Part 2: Toolbox" },
+    { "slug": "kill-your-darlings", "category": "Part 2: Revision" },
+    { "slug": "write-with-door-closed", "category": "Part 2: First Draft" },
+    { "slug": "daily-quota", "category": "Part 2: Discipline" }
+  ]
+}

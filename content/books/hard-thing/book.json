@@ -1,0 +1,18 @@
+{
+  "title": "The Hard Thing About Hard Things",
+  "author": "Ben Horowitz",
+  "description": "Navigate the brutal realities of building and running a company when there are no easy answers. 4 actionable Claude Code skills.",
+  "longDescription": "The Hard Thing About Hard Things by Ben Horowitz is the anti-motivational business book. While most leadership books describe what to do when things go well, Horowitz writes about what to do when things fall apart — when you have to lay off friends, when your best people want to leave, when you are running out of cash, and when every option looks bad. Drawing from his experience as CEO of Opsware and co-founder of Andreessen Horowitz, he provides unflinching frameworks for the decisions no one wants to make. These four skills translate his hard-won lessons into coaching sessions for leaders facing the toughest moments in business.",
+  "coverImage": "/covers/hard-thing.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/hard-thing",
+  "tags": ["leadership", "startup", "management", "decision-making"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "peacetime-wartime", "category": "Ch4: CEO Modes" },
+    { "slug": "hire-fire-promote", "category": "Ch5: People" },
+    { "slug": "struggle-framework", "category": "Ch1: The Struggle" },
+    { "slug": "ceo-decisions", "category": "Ch7: Decisions" }
+  ]
+}

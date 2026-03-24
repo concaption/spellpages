@@ -1,0 +1,18 @@
+{
+  "title": "Inspired",
+  "author": "Marty Cagan",
+  "description": "Build products customers love using modern discovery and team practices. 4 actionable Claude Code skills.",
+  "longDescription": "Inspired by Marty Cagan distills decades of experience from Silicon Valley's best product companies into a comprehensive guide for building products that matter. Cagan argues that most product failures stem from how companies organize teams, how they decide what to build, and how they involve stakeholders — not from engineering execution. The book covers empowered product teams, opportunity assessment, modern product discovery techniques, and stakeholder management. These four skills translate Cagan's frameworks into interactive coaching sessions that help you assess opportunities rigorously, run discovery sprints, structure cross-functional teams, and manage stakeholders without becoming a feature factory.",
+  "coverImage": "/covers/inspired.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/inspired",
+  "tags": ["product", "management", "discovery", "leadership"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "opportunity-assessment", "category": "Part 2: Discovery" },
+    { "slug": "product-discovery", "category": "Part 3: Techniques" },
+    { "slug": "product-team-setup", "category": "Part 1: Teams" },
+    { "slug": "stakeholder-management", "category": "Part 4: Stakeholders" }
+  ]
+}

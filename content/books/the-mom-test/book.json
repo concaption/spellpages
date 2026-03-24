@@ -1,0 +1,18 @@
+{
+  "title": "The Mom Test",
+  "author": "Rob Fitzpatrick",
+  "description": "Learn to ask questions that even your mom can't lie about through 4 Claude Code skills covering good questions, validation traps, commitment tests, and customer segmentation.",
+  "longDescription": "Rob Fitzpatrick's concise guide teaches founders how to talk to customers without getting lied to. These 4 skills encode the core rules — crafting questions that extract truth instead of flattery, recognizing empty validation, testing for real commitment, and segmenting conversations to find patterns — so you can validate ideas before building the wrong thing.",
+  "coverImage": "/covers/the-mom-test.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/the-mom-test",
+  "tags": ["product", "customer-discovery", "startup", "research"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "good-questions", "category": "Rule 1: Questions" },
+    { "slug": "avoid-compliments", "category": "Rule 2: Validation" },
+    { "slug": "commitment-test", "category": "Rule 3: Commitment" },
+    { "slug": "customer-segments", "category": "Chapter 4: Segments" }
+  ]
+}

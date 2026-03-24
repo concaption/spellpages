@@ -1,0 +1,18 @@
+{
+  "title": "The War of Art",
+  "author": "Steven Pressfield",
+  "description": "Break through creative blocks and defeat Resistance with 4 battle-tested skills for doing your best work.",
+  "longDescription": "Steven Pressfield's The War of Art is a powerful manifesto for anyone who struggles to sit down and create. It names the invisible force that keeps us from our work — Resistance — and provides a blueprint for overcoming it. These four skills help you identify the forms Resistance takes, adopt the mindset of a professional, build unshakeable creative discipline, and connect with the higher source of inspiration that fuels great art.",
+  "coverImage": "/covers/war-of-art.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/war-of-art",
+  "tags": ["creativity", "productivity", "mindset", "writing"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "identify-resistance", "category": "Book 1: Resistance" },
+    { "slug": "turning-pro", "category": "Book 2: Turning Pro" },
+    { "slug": "creative-discipline", "category": "Book 2: Discipline" },
+    { "slug": "invoke-the-muse", "category": "Book 3: The Muse" }
+  ]
+}

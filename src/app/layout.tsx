@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || "https://spellpages.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || "https://spellpages.usama.cc"),
   title: {
     default: "SpellPages — Books as Claude Code Skills",
     template: "%s | SpellPages",

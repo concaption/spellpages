@@ -1,0 +1,18 @@
+{
+  "title": "The Five Dysfunctions of a Team",
+  "author": "Patrick Lencioni",
+  "description": "Diagnose and fix team dysfunction with 4 skills from Lencioni's essential leadership fable.",
+  "longDescription": "Patrick Lencioni's The Five Dysfunctions of a Team is the definitive guide to understanding why teams fail and how to fix them. Through a compelling leadership fable, Lencioni reveals the five interconnected dysfunctions—absence of trust, fear of conflict, lack of commitment, avoidance of accountability, and inattention to results—that undermine even the most talented groups. These skills give you practical tools to assess your team's health, build vulnerability-based trust, engage in productive conflict, and create a culture of mutual accountability.",
+  "coverImage": "/covers/five-dysfunctions.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/five-dysfunctions",
+  "tags": ["leadership", "teams", "management", "culture"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "trust-assessment", "category": "Dysfunction 1: Trust" },
+    { "slug": "healthy-conflict", "category": "Dysfunction 2: Conflict" },
+    { "slug": "team-commitment", "category": "Dysfunction 3: Commitment" },
+    { "slug": "accountability-culture", "category": "Dysfunction 4: Accountability" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "The Psychology of Money",
+  "author": "Morgan Housel",
+  "description": "Develop a healthier relationship with money through 4 Claude Code skills covering reasonable decisions, margin of safety, wealth vs. income, and the power of compounding.",
+  "longDescription": "Morgan Housel argues that financial success isn't about what you know — it's about how you behave. These 4 skills distill the most actionable chapters into frameworks for making reasonable (not just rational) financial decisions, building room for error into your plans, understanding the crucial difference between being wealthy and being rich, and harnessing the patience that compounding demands.",
+  "coverImage": "/covers/psychology-of-money.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/psychology-of-money",
+  "tags": ["finance", "psychology", "investing", "money-mindset"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "reasonable-over-rational", "category": "Chapter 11: Reasonable" },
+    { "slug": "room-for-error", "category": "Chapter 13: Margin" },
+    { "slug": "wealth-vs-rich", "category": "Chapter 9: Wealth" },
+    { "slug": "compounding-patience", "category": "Chapter 4: Compounding" }
+  ]
+}

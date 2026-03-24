@@ -1,0 +1,19 @@
+{
+  "title": "Never Split the Difference",
+  "author": "Chris Voss",
+  "description": "Master FBI-tested negotiation tactics through 5 Claude Code skills that teach tactical empathy, mirroring, labeling, calibrated questions, and the Ackerman bargaining model.",
+  "longDescription": "Former FBI hostage negotiator Chris Voss reveals field-tested techniques for high-stakes negotiations. These 5 skills distill the core methods — tactical empathy to understand counterparts, mirroring to build rapport, labeling to defuse emotions, calibrated questions to guide outcomes, and the Ackerman model to close deals — into actionable frameworks you can apply to any conversation where the outcome matters.",
+  "coverImage": "/covers/never-split-the-difference.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/never-split-the-difference",
+  "tags": ["negotiation", "communication", "psychology", "business"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "tactical-empathy", "category": "Chapter 1: Empathy" },
+    { "slug": "mirroring", "category": "Chapter 2: Mirroring" },
+    { "slug": "labeling", "category": "Chapter 3: Labeling" },
+    { "slug": "calibrated-questions", "category": "Chapter 7: Questions" },
+    { "slug": "ackerman-bargaining", "category": "Chapter 9: Bargaining" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Antifragile",
+  "author": "Nassim Taleb",
+  "description": "Build systems that gain from disorder with 4 skills rooted in Taleb's revolutionary framework for thriving under uncertainty.",
+  "longDescription": "Nassim Nicholas Taleb's Antifragile introduces a paradigm-shifting concept: some things don't merely survive shocks — they get stronger from them. Moving beyond resilience, Taleb shows how to design systems, strategies, and lives that benefit from volatility, randomness, and stress. These four skills help you detect hidden fragilities, apply the barbell strategy for asymmetric upside, practice via negativa to improve by subtraction, and ensure ethical alignment through skin in the game.",
+  "coverImage": "/covers/antifragile.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/antifragile",
+  "tags": ["risk", "systems-thinking", "philosophy", "decision-making"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "fragility-detector", "category": "Book 2: Detection" },
+    { "slug": "barbell-strategy", "category": "Book 4: Optionality" },
+    { "slug": "via-negativa", "category": "Book 5: Subtraction" },
+    { "slug": "skin-in-the-game", "category": "Book 7: Ethics" }
+  ]
+}

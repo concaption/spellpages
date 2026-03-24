@@ -1,0 +1,18 @@
+{
+  "title": "I Will Teach You to Be Rich",
+  "author": "Ramit Sethi",
+  "description": "Build a Rich Life with automated finances and conscious spending through 4 actionable money skills.",
+  "longDescription": "Ramit Sethi's I Will Teach You to Be Rich cuts through financial noise with a practical, no-guilt approach to money management. Instead of penny-pinching and deprivation, Sethi advocates for automated systems that let you spend extravagantly on what you love while ruthlessly cutting costs on what you don't. These four skills help you automate your entire financial infrastructure, design a conscious spending plan, negotiate your salary with confidence, and build a smart investment ladder from scratch.",
+  "coverImage": "/covers/teach-you-rich.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/teach-you-rich",
+  "tags": ["finance", "automation", "money", "lifestyle"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "automate-finances", "category": "Ch5: Automation" },
+    { "slug": "conscious-spending", "category": "Ch4: Spending Plan" },
+    { "slug": "negotiate-salary", "category": "Ch8: Negotiation" },
+    { "slug": "investment-ladder", "category": "Ch7: Investing" }
+  ]
+}

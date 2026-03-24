@@ -1,0 +1,19 @@
+{
+  "title": "Made to Stick",
+  "author": "Chip Heath & Dan Heath",
+  "description": "Learn the six principles that make ideas unforgettable. 5 actionable Claude Code skills.",
+  "longDescription": "Made to Stick by Chip and Dan Heath explores why some ideas thrive while others die. Drawing on decades of research, the authors distill the anatomy of sticky ideas into six key principles: Simple, Unexpected, Concrete, Credible, Emotional, and Stories (SUCCESs). Whether you're pitching a product, writing copy, or leading a team, these five skills translate the Heath brothers' frameworks into hands-on coaching sessions that help you strip ideas to their core, generate curiosity gaps, ground abstract concepts in sensory detail, build credibility without credentials, and craft stories that move people to action.",
+  "coverImage": "/covers/made-to-stick.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/made-to-stick",
+  "tags": ["communication", "marketing", "storytelling", "persuasion"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "simplicity", "category": "Principle 1: Simple" },
+    { "slug": "unexpectedness", "category": "Principle 2: Unexpected" },
+    { "slug": "concreteness", "category": "Principle 3: Concrete" },
+    { "slug": "credibility", "category": "Principle 4: Credible" },
+    { "slug": "stories-that-stick", "category": "Principle 6: Stories" }
+  ]
+}

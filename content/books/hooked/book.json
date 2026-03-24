@@ -1,0 +1,18 @@
+{
+  "title": "Hooked",
+  "author": "Nir Eyal",
+  "description": "Build habit-forming products with 4 Claude Code skills covering the Hook Model's four phases: trigger, action, variable reward, and investment.",
+  "longDescription": "Nir Eyal's Hook Model explains why some products capture attention while others fade away. These 4 skills walk you through each phase of the habit loop — designing external and internal triggers, reducing friction to drive action, creating variable rewards that sustain engagement, and building investment loops that bring users back — giving you an ethical blueprint for products people can't put down.",
+  "coverImage": "/covers/hooked.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/hooked",
+  "tags": ["product", "psychology", "habits", "design"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "trigger-design", "category": "Phase 1: Trigger" },
+    { "slug": "action-design", "category": "Phase 2: Action" },
+    { "slug": "variable-reward", "category": "Phase 3: Reward" },
+    { "slug": "investment-loop", "category": "Phase 4: Investment" }
+  ]
+}

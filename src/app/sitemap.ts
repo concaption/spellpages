@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllBooks, getAllSkillPaths } from "@/lib/content";
 
-const BASE_URL = process.env.NEXT_PUBLIC_URL || "https://spellpages.vercel.app";
+const BASE_URL = process.env.NEXT_PUBLIC_URL || "https://spellpages.usama.cc";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const books = await getAllBooks();

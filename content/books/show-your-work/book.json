@@ -1,0 +1,18 @@
+{
+  "title": "Show Your Work!",
+  "author": "Austin Kleon",
+  "description": "Share your creative process and build a loyal audience around your work. 4 actionable Claude Code skills.",
+  "longDescription": "Show Your Work! by Austin Kleon is a manifesto for the connected age: you do not have to be a genius, you just have to be findable. Kleon argues that the best way to build an audience is not through self-promotion but through generous sharing of your process, influences, and lessons learned. By opening up your creative cabinet, teaching what you know, and documenting your journey, you attract like-minded people who become collaborators, customers, and champions. These four skills translate Kleon's principles into practical coaching sessions for anyone who wants to get their work seen without feeling sleazy about it.",
+  "coverImage": "/covers/show-your-work.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/show-your-work",
+  "tags": ["creativity", "marketing", "personal-brand", "sharing"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "share-process", "category": "Ch2: Process" },
+    { "slug": "teach-what-you-know", "category": "Ch6: Teach" },
+    { "slug": "build-audience", "category": "Ch8: Audience" },
+    { "slug": "open-up-cabinet", "category": "Ch3: Cabinet" }
+  ]
+}

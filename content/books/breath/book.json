@@ -1,0 +1,17 @@
+{
+  "title": "Breath",
+  "author": "James Nestor",
+  "description": "Optimize your health through better breathing with 3 skills from Nestor's groundbreaking investigation.",
+  "longDescription": "James Nestor's Breath is a scientific adventure into the lost art and science of breathing. Through personal experiments and research spanning ancient burial sites to modern pulmonology labs, Nestor reveals how the way we breathe has profoundly changed—and how returning to proper breathing techniques can transform our health, performance, and well-being. These skills help you assess your current breathing patterns, transition to nasal breathing, and build a practice of evidence-based breathing exercises.",
+  "coverImage": "/covers/breath.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/breath",
+  "tags": ["health", "breathing", "performance", "wellness"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "breathing-assessment", "category": "Part 1: Assessment" },
+    { "slug": "nasal-breathing", "category": "Part 2: Nose" },
+    { "slug": "breathing-exercises", "category": "Part 3: Practice" }
+  ]
+}

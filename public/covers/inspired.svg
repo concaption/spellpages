@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <rect width="400" height="600" rx="8" fill="#18101e"/>
+  <rect x="0" y="0" width="400" height="6" fill="#c23d2e" rx="8" ry="0"/>
+  <text x="200" y="250" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="30" font-weight="bold">Inspired</text>
+  <line x1="140" y1="290" x2="260" y2="290" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <text x="200" y="330" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="18" opacity="0.8">Marty Cagan</text>
+  <text x="200" y="520" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="12" opacity="0.4">4 Claude Code Skills</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "title": "Peak Performance",
+  "author": "Brad Stulberg & Steve Magness",
+  "description": "Unlock sustainable high performance with 4 skills from Stulberg and Magness's science-backed playbook.",
+  "longDescription": "Peak Performance by Brad Stulberg and Steve Magness synthesizes cutting-edge science with wisdom from top performers across every domain—athletes, artists, entrepreneurs, and intellectuals. The book reveals that sustainable excellence comes not from grinding harder but from mastering the cycle of stress, rest, and growth. These skills help you design environments for deep focus, prime yourself for peak output, and connect your work to a larger purpose that fuels long-term motivation.",
+  "coverImage": "/covers/peak-performance.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/peak-performance",
+  "tags": ["performance", "health", "productivity", "growth"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "stress-rest-grow", "category": "Part 1: Growth Equation" },
+    { "slug": "prime-performance", "category": "Part 2: Priming" },
+    { "slug": "minimize-distractions", "category": "Part 2: Focus" },
+    { "slug": "purpose-driven", "category": "Part 3: Purpose" }
+  ]
+}

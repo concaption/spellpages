@@ -1,0 +1,18 @@
+{
+  "title": "Bird by Bird",
+  "author": "Anne Lamott",
+  "description": "Transform your writing process with 4 skills drawn from Anne Lamott's beloved guide to the craft of writing.",
+  "longDescription": "Anne Lamott's Bird by Bird is a warm, funny, and deeply honest guide to writing and life. Through personal anecdotes and practical advice, Lamott teaches writers to overcome perfectionism, embrace messy first drafts, and find their authentic voice. These skills distill her wisdom into actionable frameworks for anyone who writes—whether professionally or personally—helping you break through blocks, develop compelling characters, and build a sustainable creative practice.",
+  "coverImage": "/covers/bird-by-bird.svg",
+  "repoUrl": "https://github.com/concaption/spellpages",
+  "installCommand": "git clone https://github.com/concaption/spellpages.git ~/.claude/spellpages && claude plugin install ~/.claude/spellpages/content/books/bird-by-bird",
+  "tags": ["writing", "creativity", "craft", "process"],
+  "featured": false,
+  "dateAdded": "2026-03-25",
+  "skills": [
+    { "slug": "shitty-first-drafts", "category": "Part 1: Drafts" },
+    { "slug": "one-inch-frame", "category": "Part 1: Focus" },
+    { "slug": "character-development", "category": "Part 2: Characters" },
+    { "slug": "writing-routine", "category": "Part 3: Routine" }
+  ]
+}
